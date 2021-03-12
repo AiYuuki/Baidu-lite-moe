@@ -1899,7 +1899,6 @@ url-prefix("https://www.baidu.com") {
 #m2c57555a > div,
 #m249acef6 > div,
 .se_common_hint,
-.ec-pl-container,
 .c-container,
 .result,
 .sftip_com > tbody > tr > td,
@@ -1915,7 +1914,6 @@ url-prefix("https://www.baidu.com") {
 }
 
 #rs:hover,
-.ec-pl-container:hover,
 .c-container:hover,
 .result:hover,
 .sftip_com > tbody > tr > td:hover,
