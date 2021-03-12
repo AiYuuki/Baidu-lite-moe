@@ -1,9 +1,5 @@
 ## 介绍
-原本我用的是 **pan_cao** 大大的 **Baidu Lite 百度轻** 主题，但由于该主题现已停止更新，导致一些功能如今已经不能正常使用了。 
-
-其实就是在 **Baidu Lite 百度轻** 主题的基础上做了简要的修改。 
-
-综上所述，这也只是个辣鸡自用主题，如果您能垂青那就太感谢了！
+基于**pan_cao - Baidu Lite 百度轻** 主题的魔改版萌化主题。
 
 
 
@@ -22,14 +18,15 @@
 
 
 
-## 即将推出的功能
+## Feature
+- [x] 支持自定义图片
 - [ ] 支持自定义单双栏
 - [ ] 支持自定义卡片分辨率
 
 
 
 ## 安装
- 1. 在使用本主题前，请先行安装 <a href="https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne"  target="_blank"><b>Stylus</b></a> 插件（该链接指向谷歌商店，需要科学上网），使用国产浏览器（如QQ浏览器）可直接在应用商城搜索安装。
+ 1. 在使用本主题前，请先行安装 <a href="https://github.com/openstyles/stylus"  target="_blank"><b>Stylus</b></a> 插件。
  2. 点击 <a href="https://userstyles.org/styles/175260/baidu-lite"  target="_blank"><b>这里</b></a> 进入安装页。
  3. 点击安装即可。
 
@@ -51,7 +48,6 @@
 > **Fix**
 > 1. 修复了部分情况下相关搜索越界问题（仍有部分场景溢出，在下个版本修复）。
 > 2. 修复了部分情况下将指针悬停在超链接上时，出现双下划线的问题。
-————————————
 
 **v1.11a - 2020-11-08**
 
