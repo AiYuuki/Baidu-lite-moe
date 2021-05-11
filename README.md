@@ -27,8 +27,9 @@
 
 ## 安装
  1. 在使用本主题前，请先行安装 <a href="https://github.com/openstyles/stylus"  target="_blank"><b>Stylus</b></a> 插件。
- 2. 点击 <a href="https://userstyles.org/styles/175260/baidu-lite"  target="_blank"><b>这里</b></a> 进入安装页。
- 3. 点击安装即可。
+ 2. 安装样式：
+    -  <a href="https://userstyles.org/styles/175260/baidu-lite"  target="_blank"><b>userstyles</b></a> **推荐** 实时更新，但可能较慢
+    -  <a href="https://33kk.github.io/uso-archive/?style=175260"  target="_blank"><b>userstyles Archive</b></a> 滞后约一天
 
 
 
