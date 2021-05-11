@@ -1,5 +1,6 @@
 ## 介绍
-百度萌化主题。
+百度搜索简约萌化主题。
+
 ![](https://raw.githubusercontent.com/JDYuuki/Baidu-lite-moe/main/lib/index_page.png)
 ![](https://raw.githubusercontent.com/JDYuuki/Baidu-lite-moe/main/lib/search_page.png)
 
