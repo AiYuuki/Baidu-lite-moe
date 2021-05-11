@@ -1,6 +1,7 @@
 ## 介绍
-基于**pan_cao - Baidu Lite 百度轻** 主题的魔改版萌化主题。
-
+百度萌化主题。
+![](https://raw.githubusercontent.com/JDYuuki/Baidu-lite-moe/main/lib/index_page.png)
+![](https://raw.githubusercontent.com/JDYuuki/Baidu-lite-moe/main/lib/search_page.png)
 
 
 ## 注意事项
@@ -31,7 +32,8 @@
     -  <a href="https://userstyles.org/styles/175260/baidu-lite"  target="_blank"><b>userstyles</b></a> **推荐** 实时更新，但可能较慢
     -  <a href="https://33kk.github.io/uso-archive/?style=175260"  target="_blank"><b>userstyles Archive</b></a> 滞后约一天
 
-
+## Custom
+![](https://raw.githubusercontent.com/JDYuuki/Baidu-lite-moe/main/lib/custom.png)
 
 ## 更新历史
 **v1.13 - 2021-05-11**
