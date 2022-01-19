@@ -1,5 +1,6 @@
-@-moz-document url-prefix("http://www.baidu.com"), url-prefix("https://www.baidu.com") {
-/* 
+@-moz-document url-prefix("http://www.baidu.com"),
+url-prefix("https://www.baidu.com") {
+  /* 
  * 核心代码
  */
   /* 滚动条 */
@@ -1491,6 +1492,7 @@
     opacity: 0;
     height: 0px;
     overflow: hidden;
+    position: absolute;
   }
   #content_left > div[style*="display:block !important"] {
     position: absolute!important;
@@ -1687,13 +1689,23 @@
   #container {
     text-align: justify;
   }
+  .wrapper_l > #head {
+    background: white !important
+  }
   #head {
+    min-height: initial;
     position: fixed !important;
     top: 0px !important;
     height: 70px;
   }
   .wrapper_new .fm {
     margin: 15px 0 15px 19px;
+  }
+  .s-tab-item {
+    color: #626675 !important
+  }
+  .wrapper_new #u > a {
+    color: #222 !important;
   }
   #u {
     margin-top: 4px !important;
@@ -1735,11 +1747,11 @@
     width: 195px
   }
 }
-
-@-moz-document url-prefix("http://www.baidu.com"), url-prefix("https://www.baidu.com") {
-/* 
- * 将搜索结果展示为卡片
- */
+@-moz-document url-prefix("http://www.baidu.com"),
+url-prefix("https://www.baidu.com") {
+  /* 
+   * 将搜索结果展示为卡片
+   */
   /* 杂项 */
   .c-container article,
   .c-offset {
@@ -1817,6 +1829,7 @@
   .hit-toptip,
   .c-container,
   .result,
+  .result-op,
   .sftip_com > tbody > tr > td {
     margin-bottom: 5px !important;
     background: rgba(255, 255, 255, 0.8) !important;
@@ -1846,6 +1859,7 @@
   #rs_new:hover,
   .c-container:hover,
   .result:hover,
+  .result-op:hover,
   .hit-toptip:hover,
   .sftip_com > tbody > tr > td:hover,
   .options_2Vntk:hover {
@@ -1923,7 +1937,7 @@
     max-width: 75px !important;
   }
   /* 加粗广告提示 */
-  .ec_tuiguang_pplink {
+  a[style*="color: #9eb0f8;"] {
     font-weight: bold;
     color: red !important;
     font-size: large;
@@ -1958,9 +1972,9 @@
     width: 570px !important;
   }
 }
-
-@-moz-document regexp("http://www.baidu.com/s\\?.*(tn=news).*"), regexp("https://www.baidu.com/s\\?.*(tn=news).*") {
-/* 
+@-moz-document regexp("http://www.baidu.com/s\\?.*(tn=news).*"),
+regexp("https://www.baidu.com/s\\?.*(tn=news).*") {
+  /* 
  * 针对于新闻页调整
  */
   #content_left a,
@@ -2028,9 +2042,9 @@
     padding: 0 !important;
   }
 }
-
-@-moz-document url-prefix("https://www.baidu.com/more"), url-prefix("http://www.baidu.com/more/") {
-/* 
+@-moz-document url-prefix("https://www.baidu.com/more"),
+url-prefix("http://www.baidu.com/more/") {
+  /* 
  * 百度产品大全页
  */
   body {
@@ -2118,9 +2132,8 @@
     }
   }
 }
-
 @-moz-document url("https://www.baidu.com/search/jubao.html") {
-/* 
+  /* 
  * 百度不良信息举报
  */
   body {
@@ -2174,9 +2187,9 @@
     top: 25px;
   }
 }
-
-@-moz-document url-prefix("https://www.baidu.com/sf"), url-prefix("http://www.baidu.com/sf") {
-/* 
+@-moz-document url-prefix("https://www.baidu.com/sf"),
+url-prefix("http://www.baidu.com/sf") {
+  /* 
  * 百度视频页
  */
   .s_btn {
@@ -2205,9 +2218,8 @@
     left: 0;
   }
 }
-
 @-moz-document regexp("https://www.baidu.com/\\#?") {
-/* 
+  /* 
  * 设置首页背景
  */
   html {
@@ -2257,16 +2269,16 @@
   }
   /* 首页顶栏背景 */
   #s_top_wrap {
-    background: rgba(0,0,0,0);
+    background: /*[[indexTopBarColor]]*/;
   }
 }
-
-@-moz-document url-prefix("http://www.baidu.com"), url-prefix("https://www.baidu.com") {
-/* 
+@-moz-document url-prefix("http://www.baidu.com"),
+url-prefix("https://www.baidu.com") {
+  /* 
  * 设置搜索页背景
  */
   body {
-    background-image: url(https://s2.ax1x.com/2019/09/14/nsgfSS.jpg) !important;
+    background-image: url(/*[[bg]]*/) !important;
     background-repeat: no-repeat !important;
     background-attachment: fixed !important;
     background-position: center top !important;
@@ -2299,9 +2311,9 @@
     padding-top: 122px;
   }
 }
-
-@-moz-document url-prefix("http://www.baidu.com/my"), url-prefix("https://www.baidu.com/my") {
-/* 
+@-moz-document url-prefix("http://www.baidu.com/my"),
+url-prefix("https://www.baidu.com/my") {
+  /* 
  * 设置个人中心
  */
   #result_logo {
