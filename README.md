@@ -32,7 +32,7 @@
  2. 安装样式：
     -  <a href="https://userstyles.world/style/9014/baidu-lite-"  target="_blank"><b>userstyles.world</b></a> **推荐** 实时更新
     -  <a href="https://userstyles.org/styles/175260/baidu-lite"  target="_blank"><b>userstyles</b></a> **推荐** 实时更新，但可能较慢
-    -  <a href="https://33kk.github.io/uso-archive/?style=175260"  target="_blank"><b>userstyles Archive</b></a> 滞后约一天
+    -  <a href="https://uso-archive.surge.sh/?style=175260"  target="_blank"><b>userstyles Archive</b></a> 滞后约一天
 
 ## Custom
 ![](https://raw.githubusercontent.com/JDYuuki/Baidu-lite-moe/main/lib/custom.png)
