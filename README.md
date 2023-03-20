@@ -30,6 +30,7 @@
 ## 安装
  1. 在使用本主题前，请先行安装 <a href="https://github.com/openstyles/stylus"  target="_blank"><b>Stylus</b></a> 插件。
  2. 安装样式：
+    -  <a href="https://userstyles.world/style/9014/baidu-lite-"  target="_blank"><b>userstyles.world</b></a> **推荐** 实时更新
     -  <a href="https://userstyles.org/styles/175260/baidu-lite"  target="_blank"><b>userstyles</b></a> **推荐** 实时更新，但可能较慢
     -  <a href="https://33kk.github.io/uso-archive/?style=175260"  target="_blank"><b>userstyles Archive</b></a> 滞后约一天
 
@@ -37,8 +38,11 @@
 ![](https://raw.githubusercontent.com/JDYuuki/Baidu-lite-moe/main/lib/custom.png)
 
 ## 更新历史
-**v1.15 - 2022-01-19**
+**v1.15a - 2023-03-20**
+> **Fix**
+> 1. 修复不安全内容的卡片宽度异常。
 
+**v1.15 - 2022-01-19**
 > **Fix**
 > 1. 修复搜索结果列中异常的空行。
 > 2. 修复部分搜索词（如 原神）出现的动态视频造成的 header 异常。

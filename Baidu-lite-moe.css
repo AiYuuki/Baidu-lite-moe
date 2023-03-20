@@ -1746,6 +1746,9 @@ url-prefix("https://www.baidu.com") {
   #rs .new-inc-rs-item {
     width: 195px
   }
+  #unsafe_content{
+    width: 944px;
+  }
 }
 @-moz-document url-prefix("http://www.baidu.com"),
 url-prefix("https://www.baidu.com") {
